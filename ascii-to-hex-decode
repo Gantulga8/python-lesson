@@ -1,0 +1,8 @@
+This results in the hex stream 4841434b5f4d455f414d4144455553, which can be converted to the following ASCII characters:
+root@kali:~/Documents/he19/egg13# python
+Python 2.7.16 (default, Apr  6 2019, 01:42:57)
+[GCC 8.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> hexstream = '4841434b5f4d455f414d4144455553'
+>>> hexstream.decode('hex')
+'HACK_ME_AMADEUS
